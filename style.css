@@ -42,7 +42,7 @@ label {
     display: none; 
 }
 
-
+/*Hr styling*/
 
 hr {
     background-color: #69b0b9;
@@ -51,7 +51,28 @@ hr {
     width: 80%;
 }
 
+/*Button styling*/
 
+button {
+    background-color: #69b0b9;
+    border: none;
+    border-radius: 3px;
+    color: #f3f3f3;
+    height: 40px;
+    width: 100px;
+
+}
+
+
+/*portræt sektion styling*/
+
+.portret {
+    text-align: center;
+}
+
+.portret img {
+    width: 500px;
+}
 
 
 
@@ -81,5 +102,8 @@ hr {
     }
     .portret {
         padding-top: 70px;
+    }
+    .portret img {
+        width: 400px;
     }
 }
