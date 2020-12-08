@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color:#f3f3f3;
+}
+
+
+
+/*burger menu navigation*/
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: #69b0b9;
+    }
+.menu {
+    margin: 0 0px 0px 0;
+    text-align: center;
+    background-color:#69b0b9;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #f3f3f3;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 100%;
+    float: right;
+    background-color: #69b0b9;
+    color: #f3f3f3;
+    text-align: right;    
+    }
+
+
+#toggle {
+    display: none; 
+}
+
+
+
+hr {
+    background-color: #69b0b9;
+    height: 2px;
+    border: none;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+        }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .portret {
+        padding-top: 70px;
+    }
+}
