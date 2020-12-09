@@ -4,8 +4,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,p {
     color: #232323;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h4, p {
+    font-size: 16px;
 }
 
 /*burger menu navigation*/
@@ -107,6 +119,7 @@ margin-left: 40px;
     }
 .sneakerkids button {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .projekter img {
@@ -120,6 +133,7 @@ margin-left: 40px;
 }
 .msd button{
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .carpany {
@@ -157,6 +171,13 @@ margin-left: 40px;
 .arprina button {
     margin-top: 10px;
 }
+/*kompetencer*/
+
+.kompetencer h3 {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 12px;
+}
 
 .kompetencer img {
 width: 50%;
@@ -182,6 +203,8 @@ height: 15px;
 .carina p {
     margin-left: 40px;
     margin-right: 40px;
+    max-width: 340px;
+    font-style: italic;
 }
 
 /*kontakt*/
@@ -225,7 +248,7 @@ height: 15px;
     margin-bottom: 30px;
     }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     label {
         display: block;
         cursor: pointer;
@@ -256,7 +279,16 @@ height: 15px;
         display: flex;
         flex-direction: column;
     }
-    .carina p {
+}
+@media only screen and (min-width: 501px) {
+    h2 {
+        font-size: 14px;
+    }
+    
+    h1 {
         font-size: 16px;
     }
+    
+    h4, p {
+        font-size: 12px;
 }
