@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color:#f3f3f3;
+}
+
+
+
+/*burger menu navigation*/
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: #69b0b9;
+    }
+.menu {
+    margin: 0 0px 0px 0;
+    text-align: center;
+    background-color:#69b0b9;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #f3f3f3;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 100%;
+    float: right;
+    background-color: #69b0b9;
+    color: #f3f3f3;
+    text-align: right;    
+    }
+
+
+#toggle {
+    display: none; 
+}
+
+/*Hr styling*/
+
+hr {
+    background-color: #69b0b9;
+    height: 2px;
+    border: none;
+    width: 80%;
+}
+
+/*Button styling*/
+
+button {
+    background-color: #69b0b9;
+    border: none;
+    border-radius: 3px;
+    color: #f3f3f3;
+    height: 40px;
+    width: 100px;
+
+}
+
+
+/*portræt sektion styling*/
+
+.portret {
+    text-align: center;
+}
+
+.portret img {
+    width: 500px;
+}
+
+/*ryk af tekster mm.*/
+
+.projekter h1 {
+margin-left: 40px;
+}
+.ommig {
+    margin-left: 40px;
+}
+.anbefaling h1 {
+    margin-left: 40px;
+}
+.kontakt {
+    margin-left: 40px;
+}
+.kompetencer {
+    margin-left: 40px;
+}
+.cta {
+    margin-left: 40px;
+}
+
+/*Projekt sektion*/
+
+.sneakerkids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.sneakerkids button {
+    margin-top: 10px;
+}
+
+.projekter img {
+    width: 400px;
+}
+
+.msd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msd button{
+    margin-top: 10px;
+}
+
+.carpany {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carpany button {
+    margin-top: 10px;
+}
+
+.fivejive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fivejive button {
+    margin-top: 10px;
+}
+
+.karolina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.karolina button {
+    margin-top: 10px;
+}
+
+.arprina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arprina button {
+    margin-top: 10px;
+}
+
+/*anbfaling*/
+
+.carina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.carina p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+        }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .portret {
+        padding-top: 70px;
+    }
+    .portret img {
+        width: 400px;
+    }
+}
