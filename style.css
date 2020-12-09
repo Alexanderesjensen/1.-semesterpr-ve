@@ -1,28 +1,27 @@
 body {
     margin: 0;
     background-color:#f3f3f3;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
+h1,h2,h3,h4 {
+    color: #232323;
+}
 
 /*burger menu navigation*/
 
-.nav {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    background-color: #69b0b9;
-    }
 .menu {
     margin: 0 0px 0px 0;
     text-align: center;
     background-color:#69b0b9;
+    overflow: hidden;
+    
 }
 .menu a {
     clear: right;
     text-decoration: none;
     color: #f3f3f3;
-    margin: 0 10px;
+    margin: 0 90px;
     line-height: 70px;
 }
 
@@ -49,6 +48,7 @@ hr {
     height: 2px;
     border: none;
     width: 80%;
+    margin-top: 20px;
 }
 
 /*Button styling*/
@@ -92,6 +92,9 @@ margin-left: 40px;
     margin-left: 40px;
 }
 .cta {
+    margin-left: 40px;
+}
+.overskrift h1 {
     margin-left: 40px;
 }
 
@@ -156,11 +159,17 @@ margin-left: 40px;
 }
 
 .kompetencer img {
-width: 90%;
+width: 50%;
 height: 15px;
 }
 
-
+.projekter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
 
 /*anbfaling*/
 
@@ -175,7 +184,48 @@ height: 15px;
     margin-right: 40px;
 }
 
-@media only screen and (max-width: 500px) {
+/*kontakt*/
+
+.kontakt img {
+    width: auto;
+    height: 25px;
+}
+
+.kontakt h4 {
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+.mail h4 {
+    margin-left: 38px;
+}
+
+.tlf {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    }
+
+@media only screen and (max-width: 600px) {
     label {
         display: block;
         cursor: pointer;
@@ -197,5 +247,16 @@ height: 15px;
     }
     .portret img {
         width: 400px;
+    }
+    .projekter {
+        display: flex;
+        flex-direction: column;
+    }
+    .kontakt {
+        display: flex;
+        flex-direction: column;
+    }
+    .carina p {
+        font-size: 16px;
     }
 }
