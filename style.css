@@ -74,24 +74,99 @@ button {
     width: 500px;
 }
 
+/*ryk af tekster mm.*/
+
+.projekter h1 {
+margin-left: 40px;
+}
+.ommig {
+    margin-left: 40px;
+}
+.anbefaling h1 {
+    margin-left: 40px;
+}
+.kontakt {
+    margin-left: 40px;
+}
+.kompetencer {
+    margin-left: 40px;
+}
+.cta {
+    margin-left: 40px;
+}
+
 /*Projekt sektion*/
 
 .sneakerkids {
     display: flex;
     flex-direction: column;
     align-items: center;
+    }
+.sneakerkids button {
+    margin-top: 10px;
 }
-    
 
 .projekter img {
     width: 400px;
 }
 
+.msd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msd button{
+    margin-top: 10px;
+}
 
+.carpany {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carpany button {
+    margin-top: 10px;
+}
 
+.fivejive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fivejive button {
+    margin-top: 10px;
+}
 
+.karolina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.karolina button {
+    margin-top: 10px;
+}
 
+.arprina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arprina button {
+    margin-top: 10px;
+}
 
+/*anbfaling*/
+
+.carina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.carina p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 @media only screen and (max-width: 500px) {
     label {
