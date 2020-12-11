@@ -33,7 +33,7 @@ h4, p {
     clear: right;
     text-decoration: none;
     color: #f3f3f3;
-    margin: 0 90px;
+    margin: 0 70px;
     line-height: 70px;
 }
 
@@ -45,7 +45,7 @@ label {
     float: right;
     background-color: #69b0b9;
     color: #f3f3f3;
-    text-align: right;    
+    text-align: right;  
     }
 
 
@@ -294,7 +294,7 @@ video {
     }
     .menu a {
         display: block;
-        margin: 0;
+        margin: 0px;
     }
     #toggle:checked + .menu {
         display: block;
@@ -303,7 +303,7 @@ video {
         padding-top: 70px;
     }
     .portret img {
-        width: 400px;
+        width: 375px;
     }
     .projekter {
         display: flex;
@@ -317,11 +317,15 @@ video {
         text-align: center;
     }
 
+    .projekter img {
+        width: 300px;
+    }
+
     button {
-        width: 400px;
+        width: 300px;
     }     
     .projektbutton button {
-        width: 400px;       
+        width: 300px;       
      }
     
 }
